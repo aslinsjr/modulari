@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 2rem 5vw;
+}
+
+header h1 {
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 300;
+    filter: drop-shadow(5px -5px 0 aliceblue);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h2 {
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    filter: drop-shadow(1px 1px 0.5rem aliceblue);
+}
+
+img {
+    width: 30%;
+}
